@@ -1,6 +1,8 @@
 ## Quaternion CNN
 
-This repository contains code for [insert paper when uploaded].
+This repository contains code for [Rotation-invariant gait identification with quaternion convolutional neural networks](https://arxiv.org/abs/2008.07393), arXiv 2020, by B Jing, V Prabhu, A Gu, and J Whaley.
+
+Due to privacy considerations, we are not able to release the datasets or the training codes used to train the models described in the paper. This repository contains only the implementations of the QCNN kernels and model architecture, which should be sufficient to use QCNN in other domains of interest.
 
 All quaternions should be represented as tensors of shape `(4, 1)`, with the real part in the zeroth index. A tensor quaternion thought of as having shape `dims`, for example, should therefore actually have shape `(*dims, 4, 1)`.
 
